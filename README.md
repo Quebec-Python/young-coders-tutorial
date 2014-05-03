@@ -63,3 +63,28 @@ Release form
 ============
 
 A sample release form has been included in this repository. It's a good idea to send these out beforehand, so the parents know what is expected of them and their child. Make sure to have a stack of blank ones on hand, though, for people that forget theirs.
+
+Generating slides
+=================
+
+    $ cd slides
+    $ virtualenv env
+    $ pip install -r requirements.txt
+    $ landslide slides.cfg
+
+Open up the slides.html file with your favorite browser.
+
+### When viewing the slides
+
+* Press `h` to toggle display of help
+* Press `left arrow` and `right arrow` to navigate
+* Press `t` to toggle a table of contents for your presentation. Slide titles are links
+* Press `ESC` to display the presentation overview (Exposé)
+* Press `n` to toggle slide number visibility
+* Press `b` to toggle screen blanking
+* Press `c` to toggle current slide context (previous and next slides)
+* Press `e` to make slides filling the whole available space within the document body
+* Press `S` to toggle display of link to the source file for each slide
+* Press `2` to toggle notes in your slides (specify with the .notes macro)
+* Press `3` to toggle pseudo-3D display (experimental)
+* Browser zooming is supported
