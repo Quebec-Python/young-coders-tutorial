@@ -150,3 +150,45 @@ Term to introduce: **expression**
 
 ---
 
+# Math
+
+## Rule
+
+If you want Python to respond in floats, you must talk to it in floats
+
+---
+
+# Math
+
+<table>
+    <thead>
+        <tr>
+            <th class="width:50%">Integers (whole numbers):</th>
+            <th>Floats (decimals):</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>9<br>-55</td>
+            <td>17.318<br>10.0</td>
+        </tr>
+        <tr>
+            <td>
+<div class="highlight">
+<pre>
+>>> 11/3
+3
+</pre>
+</div>
+            </td>
+            <td>
+<div class="highlight">
+<pre>
+>>> 11.0/3.0
+3.3333333333333335
+</pre>
+</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
