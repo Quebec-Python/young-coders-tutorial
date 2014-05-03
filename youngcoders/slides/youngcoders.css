@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+div.presentation,
+div.slide {
+    background: #fff;
+}
+
+div.slide h1,
+div.slide h2,
+div.slide h3,
+div.slide h4,
+div.slide h5,
+div.slide h6 {
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+pre {
+    padding:5px;
+    font-family: "Droid Sans Mono", sans-serif;
+}
