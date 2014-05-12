@@ -7,6 +7,7 @@ setup(
     packages = ['youngcoders'],
     version = '0.1',
     description = 'Slides and resources for the Young Coders tutorial',
+    long_description=open('README.md').read(),
     author = 'Barbara Shaurette',
     author_email = 'barbara.shaurette@gmail.com',
     url = 'https://github.com/mechanicalgirl/young-coders-tutorial',
